@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beta Project Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>My Beta Project</h1>
+    <nav>
+      <a href="#about">About</a> | 
+      <a href="#features">Features</a> | 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About the App</h2>
+      <img src="https://via.placeholder.com/150" alt="Beta App Logo">
+      <p>Welcome to the prototype for my upcoming full-stack application!</p>
+    </section>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <article>
+        <h3>Feature 1: Interactive Dashboard</h3>
+        <p>User-centric design with real-time feedback and dynamic controls.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Sign Up for Updates</h2>
+      <form id="contactForm">
+        <label for="username">Name:</label>
+        <input type="text" id="username" placeholder="Enter your name" required>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="responseMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <button id="colorBtn">Toggle Dark Mode</button>
+    <p>&copy; 2026 My Beta Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
